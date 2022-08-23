@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "mock server with wiremock implementation",
   "main": "index.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "start:dw1": "wiremock --root-dir ./dw1-mocks --port 8100",
     "test": "echo \"Error: no test specified\" && exit 1"

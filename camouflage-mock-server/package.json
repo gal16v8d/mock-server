@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "mock server using camouflage implementation",
   "main": "plconfig.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "start": "camouflage --config  config.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
