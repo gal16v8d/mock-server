@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/cards/([a-z0-9]+)"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "card.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

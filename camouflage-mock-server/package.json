@@ -1,0 +1,15 @@
+{
+  "name": "camouflage-mock-server",
+  "version": "1.0.0",
+  "description": "mock server using camouflage implementation",
+  "main": "plconfig.js",
+  "scripts": {
+    "start": "camouflage --config  config.yml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alex.galvis.sistemas@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "camouflage-server": "^0.9.0"
+  }
+}
