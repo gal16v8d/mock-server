@@ -1,10 +1,10 @@
 {
   "name": "camouflage-mock-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "mock server using camouflage implementation",
   "main": "plconfig.js",
   "engines": {
-    "node": "16.17.1"
+    "node": ">=18.0.0 < 19.0.0"
   },
   "scripts": {
     "start": "camouflage --config  config.yml",
