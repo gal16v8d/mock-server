@@ -1,0 +1,7 @@
+{
+    "_id": "84fc25de-1c79-4161-b3e9-7ea3b74d62ab",
+    "number": 1,
+    "name": "Day Garden",
+    "max_plants": 32,
+    "coin_helper": true
+}

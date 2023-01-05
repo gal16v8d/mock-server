@@ -8,6 +8,8 @@
   },
   "scripts": {
     "start:dw1": "wiremock --root-dir ./dw1-mocks --port 8100",
+    "start:flag": "wiremock --root-dir ./flag-mocks --port 3001",
+    "start:pvz": "wiremock --root-dir ./pvz-mocks --port 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alex.galvis.sistemas@gmail.com",

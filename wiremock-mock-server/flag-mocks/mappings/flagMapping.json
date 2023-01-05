@@ -1,0 +1,25 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/flags/([a-z0-9]+)",
+        "queryParameters": {
+            "expanded": {
+                "or": [
+                    {
+                        "matches": "[a-z]+"
+                    },
+                    {
+                        "absent": true
+                    }
+                ]
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "flag.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
