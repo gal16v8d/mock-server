@@ -4,7 +4,7 @@
   "description": "mock server with wiremock implementation",
   "main": "index.js",
   "engines": {
-    "node": ">=20.0.0 < 21.0.0"
+    "node": ">=22.0.0 < 23.0.0"
   },
   "scripts": {
     "start:dw1": "wiremock --root-dir ./dw1-mocks --port 8100",

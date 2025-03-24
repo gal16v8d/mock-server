@@ -4,7 +4,7 @@
   "description": "mock server using camouflage implementation",
   "main": "plconfig.js",
   "engines": {
-    "node": ">=20.0.0 < 21.0.0"
+    "node": ">=22.0.0 < 23.0.0"
   },
   "scripts": {
     "start": "camouflage --config config.yml",
