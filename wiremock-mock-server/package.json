@@ -1,10 +1,10 @@
 {
   "name": "wiremock-mock-server",
-  "version": "1.1.0",
+  "version": "2.1.0",
   "description": "mock server with wiremock implementation",
   "main": "index.js",
   "engines": {
-    "node": ">=22.0.0 < 23.0.0"
+    "node": ">=24.0.0 < 25.0.0"
   },
   "scripts": {
     "start:dw1": "wiremock --root-dir ./dw1-mocks --port 8100",
